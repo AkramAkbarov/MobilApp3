@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "314709730480",
+    "project_id": "mobilapp3-979d5",
+    "storage_bucket": "mobilapp3-979d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314709730480:android:f6772d75f935b1f9efc775",
+        "android_client_info": {
+          "package_name": "com.nexis.mobilapp3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBim0RhgSqNLJW2scdkQSNb8M8xWpx5T0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
