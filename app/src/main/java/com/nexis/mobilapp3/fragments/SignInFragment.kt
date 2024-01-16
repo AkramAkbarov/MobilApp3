@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
+import androidx.navigation.fragment.findNavController
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -62,7 +63,8 @@ class SignInFragment : Fragment() {
 
 
         binding.textview32.setOnClickListener {
-            navController.navigate(R.id.action_signUpFragment_to_signInFragment)
+            findNavController().popBackStack()
+
         }
 
 

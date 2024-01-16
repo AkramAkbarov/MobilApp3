@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "314709730480",
+    "firebase_url": "https://mobilapp3-979d5-default-rtdb.firebaseio.com",
     "project_id": "mobilapp3-979d5",
     "storage_bucket": "mobilapp3-979d5.appspot.com"
   },
@@ -12,7 +13,20 @@
           "package_name": "com.nexis.mobilapp3"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "314709730480-qjf7gl9jmlal5navckq8l9sqqkpr9bvf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nexis.mobilapp3",
+            "certificate_hash": "d0e307fec316d946d6d79bdb91f9844241c0695a"
+          }
+        },
+        {
+          "client_id": "314709730480-ofrvt86j892q163s6fskg2g1h48u04up.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBim0RhgSqNLJW2scdkQSNb8M8xWpx5T0k"
@@ -20,7 +34,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314709730480-ofrvt86j892q163s6fskg2g1h48u04up.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

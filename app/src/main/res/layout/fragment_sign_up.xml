@@ -144,11 +144,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Already Registered !!"
+        android:text="Already Registered ?"
         android:layout_marginTop="610dp"
         android:layout_marginLeft="35dp"
         android:textSize="16sp"/>
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sing In"
